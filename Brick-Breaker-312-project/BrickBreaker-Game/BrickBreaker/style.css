@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.25rem;
+  color: #3d3d3d;
+}
+
+div{
+  /* position: absolute; */
+  /* text-align: center; */
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.25rem;
+  color: red;
+}
+
+label{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 100%;
+  font-family: 'Anton', sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.25rem;
+  color: red;
+  transform: translate(-16%, -180%)
+} 
+
+.AiStats{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 100%;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.25rem;
+  color: black;
+  transform: translate(-140%, -150%)
+} 
+
+.Pause{
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 100%;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  letter-spacing: 0.25rem;
+  color: black;
+  transform: translate(450%, -1300%)
+}
+
+canvas {
+  position: absolute;
+  left:50%;
+  top: 50%;
+  border: 5px solid black;
+  transform: translate(-50%, -50%);
+}
